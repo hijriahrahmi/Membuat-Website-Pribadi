@@ -1,0 +1,227 @@
+<!DOCTYPE html> // tipe dokumen HTML
+<html> // tag pembuka HTML
+ <head> // tag pembuka head HTML
+ <title>WEB Pribadi</title> // membuat judul pada halaman WEB
+ <link rel="stylesheet" href="style/style.css" /> // menghubungkan HTML dengan file 
+CSS
+ </head> // tag penutup head HTML
+ <body> // tag pembuka body HTML
+ <nav class="navi"> // tag pembuka nav
+ <ul> // tag pembuka undefined list
+ <li><a href="#home">HOME</a></li> // list link id home
+ <li><a href="#pendidikan">PENDIDIKAN</a></li> // list link id pendidikan
+ <li><a href="#jadwalKuliah">JADWAL KULIAH</a></li> // list link id
+jadwalKuliah
+ <li><a href="#aktivitas">AKTIVITAS</a></li> // list link id aktivitas
+ <li><a href="#informasiLain">INFORMASI LAIN</a></li> // list link id
+informasiLain
+ </ul> // tag penutup undefined list
+ </nav> // tag penutup nav
+ <h1 id="home">HOME</h1> // membuat teks heading HOME dengan id home
+ <p>Hai, perkenalkan nama saya <strong>Muhammad Anas Punggawa</strong> // 
+membuat teks bold/tebal asal
+ Kabupaten Jeneponto. Sekarang sedang menempuh pendidikan Strata 1 di
+ Universitas Negeri Makassar, Fakultas Teknik, Jurusan Teknik Informatika
+ dan Komputer dengan Program Studi Pendidikan Teknik Informatika Dan
+ Komputer.</p> // membuat teks paragraf
+ <p>Saya bercita-cita ingin menjadi seorang programmer yang handal, dapat
+ memecahkan masalah dengan cepat dan memberikan solusi yang tepat dan efektif.</p>
+// membuat teks paragraf
+ <h1 id="pendidikan">PENDIDIKAN</h1> // membuat teks heading PENDIDIKAN
+dengan id pendidikan
+ <table> // tag pembuka table
+ <thead> // tag pembuka bagian kepala tabel
+ <tr> // tag pembuka baris dalam tabel
+ <th>No</th> // membuat data header dalam tabel
+ <th>Jenjang</th> // membuat data header dalam tabel
+ <th>Sekolah/Universitas</th> // membuat data header dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ </thead> // tag penutup bagian kepala tabel
+ <tbody> // tag pembuka bagian badan tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>1</td> // membuat data body dalam tabel
+ <td>Taman Kanak-kanak</td> // membuat data body dalam tabel
+ <td>TK Pembina</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>2</td> // membuat data body dalam tabel
+ <td>Sekolah Dasar</td> // membuat data body dalam tabel
+ <td>SD Negeri 1 Jeneponto</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>3</td> // membuat data body dalam tabel
+ <td>Sekolah Dasar</td> // membuat data body dalam tabel
+ <td>SD Negeri Bontosunggu Kota</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>4</td> // membuat data body dalam tabel
+ <td>Sekolah Menengah Pertama</td> // membuat data body dalam tabel
+ <td>MTs Negeri 1 Jeneponto</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>5</td> // membuat data body dalam tabel
+ <td>Sekolah Menengah Atas</td> // membuat data body dalam tabel
+ <td>MA Negeri 1 Jeneponto</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>6</td> // membuat data body dalam tabel
+ <td>Strata 1</td> // membuat data body dalam tabel
+ <td>Universitas Negeri Makassar</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ </tbody> // tag penutup bagian badan tabel
+ </table> // tag penutup table
+ <h1 id="jadwalKuliah">JADWAL KULIAH</h1> // membuat teks heading
+JADWAL KULIAH dengan id jadwalKuliah
+ <table> // tag pembuka table
+ <thead> // tag pembuka bagian kepala tabel
+ <tr> // tag pembuka baris dalam tabel
+ <th>No</th> // membuat data header dalam tabel
+ <th>Hari</th> // membuat data header dalam tabel
+ <th>Mata Kuliah</th> // membuat data header dalam tabel
+ <th>Jam</th> // membuat data header dalam tabel
+ <th>Kelas</th> // membuat data header dalam tabel
+ <th>Jenis</th> // membuat data header dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ </thead> // tag penutup bagian kepala tabel
+ <tbody> // tag pembuka bagian badan tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>1</td> // membuat data body dalam tabel
+ <td>Senin</td> // membuat data body dalam tabel
+ <td>Tata Kelola IT</td> // membuat data body dalam tabel
+ <td>07:30 - 09:10</td> // membuat data body dalam tabel
+ <td>PTIK A 19</td> // membuat data body dalam tabel
+ <td>Pilihan</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>2</td> // membuat data body dalam tabel
+ <td>Senin</td> // membuat data body dalam tabel
+ <td>E-Learning</td> // membuat data body dalam tabel
+ <td>16:10 - 17:50</td> // membuat data body dalam tabel
+ <td>PTIK B 19</td> // membuat data body dalam tabel
+ <td>Wajib</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>3</td> // membuat data body dalam tabel
+ <td>Selasa</td> // membuat data body dalam tabel
+ <td>Komunikasi Data</td> // membuat data body dalam tabel
+ <td>07:30 - 09:10</td> // membuat data body dalam tabel
+ <td>PTIK B 19</td> // membuat data body dalam tabel
+ <td>Wajib</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>4</td> // membuat data body dalam tabel
+ <td>Selasa</td> // membuat data body dalam tabel
+ <td>Evaluasi Pembelajaran</td> // membuat data body dalam tabel
+ <td>16:10 - 17:50</td> // membuat data body dalam tabel
+ <td>PTIK B 19</td> // membuat data body dalam tabel
+ <td>Wajib</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>5</td> // membuat data body dalam tabel
+ <td>Rabu</td> // membuat data body dalam tabel
+ <td><strong>Pemrograman Web</strong> // membuat teks menjadi bold/tebal
+</td> // membuat data body dalam tabel
+ <td>13:10 - 15:40</td> // membuat data body dalam tabel
+ <td>PTIK B 19</td> // membuat data body dalam tabel
+ <td>Wajib</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>6</td> // membuat data body dalam tabel
+ <td>Kamis</td> // membuat data body dalam tabel
+ <td>Simulasi & Game Computing</td> // membuat data body dalam tabel
+ <td>07:30 - 10:05</td> // membuat data body dalam tabel
+ <td>PTIK A 19</td> // membuat data body dalam tabel
+ <td>Pilihan</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>7</td> // membuat data body dalam tabel
+ <td>Kamis</td> // membuat data body dalam tabel
+ <td>Kewirausahaan</td> // membuat data body dalam tabel
+ <td>13:10 - 15:40</td> // membuat data body dalam tabel
+ <td>PTIK B 19</td> // membuat data body dalam tabel
+ <td>Wajib</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>8</td> // membuat data body dalam tabel
+ <td>Kamis</td> // membuat data body dalam tabel
+ <td>Aplikasi Multimedia</td> // membuat data body dalam tabel
+ <td>16:10 - 17:50</td> // membuat data body dalam tabel
+ <td>PTIK B 19</td> // membuat data body dalam tabel
+ <td>Wajib</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>9</td> // membuat data body dalam tabel
+ <td>Jum'at</td> // membuat data body dalam tabel
+ <td>Pemrograman Berorientasi Objek</td> // membuat data body dalam tabel
+ <td>07:30 - 10:05</td> // membuat data body dalam tabel
+ <td>PTIK A 19</td> // membuat data body dalam tabel
+ <td>Pilihan</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ <tr> // tag pembuka baris dalam tabel
+ <td>10</td> // membuat data body dalam tabel
+ <td>Jum'at</td> // membuat data body dalam tabel
+ <td>Metodologi Penelitian</td> // membuat data body dalam tabel
+ <td>14:50 - 17:00</td> // membuat data body dalam tabel
+ <td>PTIK B 19</td> // membuat data body dalam tabel
+ <td>Wajib</td> // membuat data body dalam tabel
+ </tr> // tag penutup baris dalam tabel
+ </tbody> // tag pembuka bagian badan tabel
+ </table> // tag penutup table
+ <h1 id="aktivitas">AKTIVITAS</h1> // membuat teks heading AKTIVITAS
+dengan id aktivitas
+ <p>Selama perkuliahan berlangsung, saya tidak pernah mengikuti organisasi
+ manapun karena saya berfokus untuk belajar mandiri untuk meningkatkan
+ skill programming saya. Tetapi saya sering mengikuti webinar yang membahas
+ mengenai programming.</p> // membuat teks paragraf
+ <h1 id="informasiLain">INFORMASI LAIN</h1> // membuat teks heading
+INFORMASI LAIN dengan id informasiLain
+ <p>Setelah menempuh Strata 1 nantinya, saya ingin melanjutkan pendidikan saya
+ ke jenjang yang lebih tinggi yaitu Strata 2 di luar negeri.</p> // membuat teks 
+paragraf
+ </body> // tag penutup body HTML
+</html> // tag penutup HTML
+2. style.css
+body { // memilih selector tag body
+ padding-left: 15px; // mengatur jarak bagian dalam sebelah kiri sebesar 15 pixel
+ padding-right: 15px; // mengatur jarak bagian dalam sebelah kanan sebesar 15 pixel
+ font-family: Arial, Helvetica, sans-serif; // menggunakan jenis font Arial, Helvetica, 
+sans-serif
+ margin-bottom: 100px; // mengatur batas bawah sebesar 100 pixel
+}
+.navi { // memilih selector class .navi
+ background: #222; // mengatur warna background
+ align-items: center; // mengatur posisi item menjadi tengah
+}
+a { // memilih selector tag a
+ color: black; // mengatur warna teks
+ text-decoration: none; // menghilangkan dekorasi pada teks
+ padding: 14px 10px; // mengatur jarak bagian dalam sebelah atas dan bawah sebesar 
+14 pixel dan sebelah kiri dan kanan sebesar 10 pixel
+}
+ul { // memilih selector tag ul
+ padding: 14px; // mengatur jarak bagian dalam sebesar 14 pixel
+}
+li { // memilih selector tag li
+ list-style: none; // menghilangkan tanda pada item list
+ display: inline; // mengatur konten mengalir ke samping (horizontal)
+ margin-right: 10px; // mengatur batas kanan sebesar 10 pixel
+}
+li, a { // memilih selector tag li dan tag a
+ background: #222; // mengatur warna background
+ color: #fff; // mengatur warna teks
+}
+li, a:hover { // memilih selector tag li dan tag a ketika di-hover
+ background: #4da4ff; // mengatur warna background
+ color: #fff; // mengatur warna teks
+}
+table, p { // memilih selector tag table dan tag p
+ margin-left: 15px; // mengatur batas kiri sebesar 15 pixel
+}
+table { // memilih selector tag table
+ border-collapse: collapse; // mengatur garis pembatas menjadi hilang
+}
+table, th, td { // memilih selector tag table, tag th, dan tag td
+ border: 1px solid #999; // mengatur tebal garis pembatas sebesar 1 pixel dan 
+warnanya
+ padding: 8px 10px; // mengatur jarak bagian dalam sebelah atas dan bawah sebesar 
+8 pixel dan sebelah kiri dan kanan sebesar 10 pixel
